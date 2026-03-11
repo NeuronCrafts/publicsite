@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Connection lines -->
+  <g stroke="#38bdf8" stroke-opacity="0.08" stroke-width="1" fill="none">
+    <!-- Layer 1 to Layer 2 -->
+    <line x1="150" y1="120" x2="380" y2="80"/>
+    <line x1="150" y1="120" x2="400" y2="250"/>
+    <line x1="150" y1="120" x2="350" y2="420"/>
+    <line x1="120" y1="320" x2="380" y2="80"/>
+    <line x1="120" y1="320" x2="400" y2="250"/>
+    <line x1="120" y1="320" x2="350" y2="420"/>
+    <line x1="180" y1="520" x2="400" y2="250"/>
+    <line x1="180" y1="520" x2="350" y2="420"/>
+    <line x1="180" y1="520" x2="380" y2="600"/>
+    <line x1="100" y1="680" x2="350" y2="420"/>
+    <line x1="100" y1="680" x2="380" y2="600"/>
+
+    <!-- Layer 2 to Layer 3 -->
+    <line x1="380" y1="80" x2="620" y2="180"/>
+    <line x1="380" y1="80" x2="650" y2="400"/>
+    <line x1="400" y1="250" x2="620" y2="180"/>
+    <line x1="400" y1="250" x2="650" y2="400"/>
+    <line x1="400" y1="250" x2="600" y2="580"/>
+    <line x1="350" y1="420" x2="650" y2="400"/>
+    <line x1="350" y1="420" x2="600" y2="580"/>
+    <line x1="380" y1="600" x2="650" y2="400"/>
+    <line x1="380" y1="600" x2="600" y2="580"/>
+
+    <!-- Layer 3 to Layer 4 -->
+    <line x1="620" y1="180" x2="880" y2="120"/>
+    <line x1="620" y1="180" x2="850" y2="340"/>
+    <line x1="650" y1="400" x2="880" y2="120"/>
+    <line x1="650" y1="400" x2="850" y2="340"/>
+    <line x1="650" y1="400" x2="900" y2="540"/>
+    <line x1="600" y1="580" x2="850" y2="340"/>
+    <line x1="600" y1="580" x2="900" y2="540"/>
+    <line x1="600" y1="580" x2="870" y2="700"/>
+
+    <!-- Layer 4 to Layer 5 -->
+    <line x1="880" y1="120" x2="1080" y2="260"/>
+    <line x1="880" y1="120" x2="1100" y2="480"/>
+    <line x1="850" y1="340" x2="1080" y2="260"/>
+    <line x1="850" y1="340" x2="1100" y2="480"/>
+    <line x1="900" y1="540" x2="1080" y2="260"/>
+    <line x1="900" y1="540" x2="1100" y2="480"/>
+    <line x1="870" y1="700" x2="1100" y2="480"/>
+  </g>
+
+  <!-- Faint secondary connections -->
+  <g stroke="#38bdf8" stroke-opacity="0.04" stroke-width="0.5" fill="none">
+    <line x1="150" y1="120" x2="620" y2="180"/>
+    <line x1="120" y1="320" x2="650" y2="400"/>
+    <line x1="380" y1="80" x2="850" y2="340"/>
+    <line x1="400" y1="250" x2="900" y2="540"/>
+    <line x1="180" y1="520" x2="600" y2="580"/>
+    <line x1="620" y1="180" x2="1100" y2="480"/>
+    <line x1="650" y1="400" x2="1080" y2="260"/>
+  </g>
+
+  <!-- Nodes Layer 1 -->
+  <g>
+    <circle cx="150" cy="120" r="4" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="150" cy="120" r="8" fill="url(#glow)" opacity="0.15"/>
+    <circle cx="120" cy="320" r="3.5" fill="#38bdf8" opacity="0.25"/>
+    <circle cx="120" cy="320" r="7" fill="url(#glow)" opacity="0.12"/>
+    <circle cx="180" cy="520" r="4" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="180" cy="520" r="8" fill="url(#glow)" opacity="0.15"/>
+    <circle cx="100" cy="680" r="3" fill="#38bdf8" opacity="0.2"/>
+    <circle cx="100" cy="680" r="6" fill="url(#glow)" opacity="0.1"/>
+  </g>
+
+  <!-- Nodes Layer 2 -->
+  <g>
+    <circle cx="380" cy="80" r="3.5" fill="#38bdf8" opacity="0.25"/>
+    <circle cx="380" cy="80" r="7" fill="url(#glow)" opacity="0.12"/>
+    <circle cx="400" cy="250" r="5" fill="#38bdf8" opacity="0.35"/>
+    <circle cx="400" cy="250" r="10" fill="url(#glow)" opacity="0.18"/>
+    <circle cx="350" cy="420" r="4" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="350" cy="420" r="8" fill="url(#glow)" opacity="0.15"/>
+    <circle cx="380" cy="600" r="3.5" fill="#38bdf8" opacity="0.25"/>
+    <circle cx="380" cy="600" r="7" fill="url(#glow)" opacity="0.12"/>
+  </g>
+
+  <!-- Nodes Layer 3 -->
+  <g>
+    <circle cx="620" cy="180" r="5" fill="#38bdf8" opacity="0.35"/>
+    <circle cx="620" cy="180" r="12" fill="url(#glow)" opacity="0.2"/>
+    <circle cx="650" cy="400" r="6" fill="#38bdf8" opacity="0.4"/>
+    <circle cx="650" cy="400" r="14" fill="url(#glow)" opacity="0.22"/>
+    <circle cx="600" cy="580" r="4.5" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="600" cy="580" r="10" fill="url(#glow)" opacity="0.16"/>
+  </g>
+
+  <!-- Nodes Layer 4 -->
+  <g>
+    <circle cx="880" cy="120" r="4" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="880" cy="120" r="8" fill="url(#glow)" opacity="0.15"/>
+    <circle cx="850" cy="340" r="5" fill="#38bdf8" opacity="0.35"/>
+    <circle cx="850" cy="340" r="11" fill="url(#glow)" opacity="0.18"/>
+    <circle cx="900" cy="540" r="4" fill="#38bdf8" opacity="0.28"/>
+    <circle cx="900" cy="540" r="8" fill="url(#glow)" opacity="0.14"/>
+    <circle cx="870" cy="700" r="3.5" fill="#38bdf8" opacity="0.22"/>
+    <circle cx="870" cy="700" r="7" fill="url(#glow)" opacity="0.1"/>
+  </g>
+
+  <!-- Nodes Layer 5 -->
+  <g>
+    <circle cx="1080" cy="260" r="4.5" fill="#38bdf8" opacity="0.3"/>
+    <circle cx="1080" cy="260" r="10" fill="url(#glow)" opacity="0.16"/>
+    <circle cx="1100" cy="480" r="5" fill="#38bdf8" opacity="0.35"/>
+    <circle cx="1100" cy="480" r="12" fill="url(#glow)" opacity="0.2"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#38bdf8">
+    <circle cx="250" cy="200" r="1.2" opacity="0.12"/>
+    <circle cx="500" cy="150" r="1" opacity="0.1"/>
+    <circle cx="720" cy="300" r="1.5" opacity="0.14"/>
+    <circle cx="950" cy="450" r="1" opacity="0.1"/>
+    <circle cx="300" cy="500" r="1.2" opacity="0.11"/>
+    <circle cx="780" cy="650" r="1" opacity="0.09"/>
+    <circle cx="550" cy="700" r="1.3" opacity="0.12"/>
+    <circle cx="1000" cy="200" r="1" opacity="0.1"/>
+    <circle cx="200" cy="400" r="0.8" opacity="0.08"/>
+    <circle cx="450" cy="350" r="1.1" opacity="0.1"/>
+    <circle cx="750" cy="100" r="0.9" opacity="0.09"/>
+    <circle cx="1050" cy="650" r="1.2" opacity="0.11"/>
+  </g>
+</svg>
