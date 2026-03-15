@@ -31,14 +31,19 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - Any new copy must be reviewed for first-person ("I/my/me") before committing
 
 ## Site Sections
-- **Hero** — headline + "Schedule a Cloud Audit" CTA
-- **Services** — 2x2 grid, each card has description + benefit bullet points, CTA at bottom
-- **Trust** — certification badges (AZ-500, AZ-104, CISSP, AZ-305, SC-200) — placeholders, update as certs are confirmed
-- **About** — founding story, expertise, frameworks
-- **Contact** — email CTA
+- **Hero** — headline + "Request a Cloud Assessment" CTA
+- **Services** — 2x2 grid, each card has description + benefit bullet points, "Let's Assess Your Environment" CTA at bottom
+- **Trust** — verified certification badges: CISSP, AZ-500, SC-100
+- **About** — founding story, expertise, track record
+- **Contact** — email CTA (hello@neuroncraft.ai)
+
+## Verified Certifications
+- CISSP (Certified Information Systems Security Professional)
+- AZ-500 (Azure Security Engineer)
+- SC-100 (Microsoft Cybersecurity Architect)
 
 ## Services (4 offerings)
 1. Azure FinOps & Security Audit (cost savings, MFA/Entra ID gaps)
 2. Virtual CISO / vCISO (SOC 2, HIPAA, PCI compliance)
-3. Hardened Azure Environment-as-a-Service (Bicep/Terraform, CIS landing zones)
+3. Hardened Azure Environment (Bicep/Terraform, CIS landing zones)
 4. Zero-Trust Migration Specialist (replace VPNs with Azure Private Link)
