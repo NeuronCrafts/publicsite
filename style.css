@@ -370,56 +370,6 @@ nav {
     margin-top: 3rem;
 }
 
-/* ---- TRUST ---- */
-
-.trust {
-    padding: 6rem 2rem;
-    max-width: 1120px;
-    margin: 0 auto;
-    border-top: 1px solid var(--border);
-}
-
-.cert-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.25rem;
-}
-
-.cert-badge {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    min-width: 160px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cert-badge:hover {
-    border-color: var(--border-hover);
-    box-shadow: 0 8px 32px rgba(56, 189, 248, 0.06);
-}
-
-.cert-name {
-    display: block;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: -0.02em;
-    margin-bottom: 0.35rem;
-}
-
-.cert-desc {
-    display: block;
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    line-height: 1.4;
-}
-
 /* ---- ABOUT ---- */
 
 .about {
@@ -574,11 +524,6 @@ footer {
 @media (max-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr;
-    }
-
-    .cert-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .hero {
