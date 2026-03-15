@@ -10,7 +10,7 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - No dependencies
 
 ## Key Files
-- `index.html` — Single-page site (services, credentials, about, contact)
+- `index.html` — Single-page site (services, about, contact)
 - `style.css` — All styles, CSS custom properties for theming
 - `assets/` — SVG backgrounds (neural-network.svg, brain-neurons.svg), brand icon (icon.svg + PNGs)
 - `favicon.ico` — Multi-size favicon (16/32/48/64)
@@ -25,6 +25,10 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - Use **"we/our/us"** — never "I/my/me". The site is team-oriented, even though it's currently founded by one person with 15+ years of experience.
 - Target audience: CTOs and IT Directors at growing companies
 - Tone: confident, hands-on, results-driven — not salesy
+
+## Content Rules
+- Do not add stats/credential numbers without explicit user approval — claims must be verified and accurate
+- Any new copy must be reviewed for first-person ("I/my/me") before committing
 
 ## Services Focus
 1. Cloud Security Engineering (Azure, zero-trust, threat detection)
