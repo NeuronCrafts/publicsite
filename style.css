@@ -296,7 +296,7 @@ nav {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -337,6 +337,86 @@ nav {
     color: var(--text-muted);
     font-size: 0.92rem;
     line-height: 1.7;
+    margin-bottom: 1.25rem;
+}
+
+.service-benefits {
+    list-style: none;
+    padding: 0;
+}
+
+.service-benefits li {
+    position: relative;
+    padding-left: 1.4rem;
+    margin-bottom: 0.6rem;
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+.service-benefits li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+.services-cta {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* ---- TRUST ---- */
+
+.trust {
+    padding: 6rem 2rem;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.cert-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.cert-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem;
+    min-width: 160px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-badge:hover {
+    border-color: var(--border-hover);
+    box-shadow: 0 8px 32px rgba(56, 189, 248, 0.06);
+}
+
+.cert-name {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    margin-bottom: 0.35rem;
+}
+
+.cert-desc {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    line-height: 1.4;
 }
 
 /* ---- ABOUT ---- */
