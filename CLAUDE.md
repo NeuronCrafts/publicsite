@@ -10,10 +10,12 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - No dependencies
 
 ## Key Files
-- `index.html` — Single-page site (services, trust/certs, about, contact)
+- `index.html` — Single-page site (services, about, contact)
 - `style.css` — All styles, CSS custom properties for theming
 - `assets/` — SVG backgrounds (neural-network.svg, brain-neurons.svg), brand icon (icon.svg + PNGs)
 - `favicon.ico` — Multi-size favicon (16/32/48/64)
+- `sitemap.xml` — For Google Search Console indexing
+- `robots.txt` — Crawler permissions, points to sitemap
 
 ## Brand & Design
 - Dark mode theme: `--bg: #0a0e1a`, `--accent: #38bdf8` (security blue)
@@ -33,7 +35,6 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 ## Site Sections
 - **Hero** — headline + "Request a Cloud Assessment" CTA
 - **Services** — 2x2 grid, each card has description + benefit bullet points, "Let's Assess Your Environment" CTA at bottom
-- **Trust** — verified certification badges: CISSP, AZ-500, SC-100
 - **About** — founding story, expertise, track record
 - **Contact** — email CTA (hello@neuroncraft.ai)
 
@@ -41,6 +42,13 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - CISSP (Certified Information Systems Security Professional)
 - AZ-500 (Azure Security Engineer)
 - SC-100 (Microsoft Cybersecurity Architect)
+
+## SEO
+- Open Graph and Twitter card meta tags in `index.html`
+- Canonical URL: `https://neuroncraft.ai/`
+- OG image: `assets/icon-512.png`
+- `sitemap.xml` and `robots.txt` at root
+- Update `sitemap.xml` lastmod date when content changes
 
 ## Services (4 offerings)
 1. Azure FinOps & Security Audit (cost savings, MFA/Entra ID gaps)
