@@ -10,7 +10,7 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - No dependencies
 
 ## Key Files
-- `index.html` — Single-page site (services, about, contact)
+- `index.html` — Single-page site (services, trust/certs, about, contact)
 - `style.css` — All styles, CSS custom properties for theming
 - `assets/` — SVG backgrounds (neural-network.svg, brain-neurons.svg), brand icon (icon.svg + PNGs)
 - `favicon.ico` — Multi-size favicon (16/32/48/64)
@@ -30,7 +30,15 @@ Static marketing site for NeuronCraft.ai, hosted on GitHub Pages. The site posit
 - Do not add stats/credential numbers without explicit user approval — claims must be verified and accurate
 - Any new copy must be reviewed for first-person ("I/my/me") before committing
 
-## Services Focus
-1. Cloud Security Engineering (Azure, zero-trust, threat detection)
-2. Azure Administration & Migration
-3. Cost Optimization & Compliance (CIS, NIST, SOC 2, ISO 27001)
+## Site Sections
+- **Hero** — headline + "Schedule a Cloud Audit" CTA
+- **Services** — 2x2 grid, each card has description + benefit bullet points, CTA at bottom
+- **Trust** — certification badges (AZ-500, AZ-104, CISSP, AZ-305, SC-200) — placeholders, update as certs are confirmed
+- **About** — founding story, expertise, frameworks
+- **Contact** — email CTA
+
+## Services (4 offerings)
+1. Azure FinOps & Security Audit (cost savings, MFA/Entra ID gaps)
+2. Virtual CISO / vCISO (SOC 2, HIPAA, PCI compliance)
+3. Hardened Azure Environment-as-a-Service (Bicep/Terraform, CIS landing zones)
+4. Zero-Trust Migration Specialist (replace VPNs with Azure Private Link)
