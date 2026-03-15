@@ -339,6 +339,51 @@ nav {
     line-height: 1.7;
 }
 
+/* ---- CREDENTIALS ---- */
+
+.credentials {
+    padding: 6rem 2rem;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.stat-card {
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2.25rem 1.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    border-color: var(--border-hover);
+    box-shadow: 0 8px 32px rgba(56, 189, 248, 0.06);
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
 /* ---- ABOUT ---- */
 
 .about {
@@ -493,6 +538,10 @@ footer {
 @media (max-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .hero {
